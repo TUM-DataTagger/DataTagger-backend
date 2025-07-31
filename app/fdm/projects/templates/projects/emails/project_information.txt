@@ -1,0 +1,8 @@
+{% extends "emails/email_template.txt" %}
+
+{% load i18n %}
+
+{% block content %}
+{% blocktrans %}{{ project_creator }} created the new project {{ project_name }} at {{ APP_TITLE }}. You are now a project member in this project. Check it out!{% endblocktrans %}
+{{ project_url }}
+{% endblock %}

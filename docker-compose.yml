@@ -1,0 +1,88 @@
+volumes:
+  db_files:
+  maildump_files:
+services:
+
+  ##########################################################################
+  # PostgreSQL configuration                                               #
+  ##########################################################################
+  postgresql:
+    image: postgres:15-bullseye
+    volumes:
+      - db_files:/var/lib/postgresql/data
+    expose:
+      - 5432
+    ports:
+      - "8400:5432"
+    environment:
+      POSTGRES_DB: database
+      POSTGRES_USER: database
+      POSTGRES_PASSWORD: database
+
+  ##########################################################################
+  # Maildump configuration                                                 #
+  ##########################################################################
+  maildump:
+    image: jivanyatra/maildump:latest
+    volumes:
+      - maildump_files:/maildump/
+    expose:
+      - 1025
+      - 1080
+    ports:
+      - "1080:1080"
+      - "1025:1025"
+
+  ##########################################################################
+  # Application configuration                                              #
+  ##########################################################################
+  restapi: &restapi
+    build:
+      context: . # We set this context to load the app requirements when building the image
+      dockerfile: ./docker/restapi/Dockerfile
+    volumes:
+      # volume for app code (only needed for development, for production the code should be within the docker image)
+      - ./:/app
+      # data volume (not needed for development but needed for production)
+      # ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+      - ENV_FILE=.env.development
+      - DJANGO_SETTINGS_MODULE=fdm.settings.development
+    command: gunicorn --workers 4 --worker-connections 25 --max-requests 100000 --max-requests-jitter 10000 --timeout 3000 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000 --log-level debug fdm.asgi:application
+    ports:
+      - "8000:8000"
+    expose:
+      - "8000"
+    container_name: "restapi"
+    depends_on:
+      - postgresql
+      - maildump
+  # Celery
+  celery:
+    <<: *restapi
+    ports: []
+    volumes:
+      - ./:/app
+    command: bash -c "celery -A fdm worker -l INFO & celery -A fdm beat -l INFO & wait"
+    environment:
+      - DJANGO_SETTINGS_MODULE=fdm.settings.development
+    depends_on:
+      - broker
+      - restapi
+    container_name: "celery"
+  # RabbitMQ Broker used by celery
+  broker:
+    image: rabbitmq:3.11-management
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=mypass
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+  redis:
+    image: redis:7.0
+    expose:
+      - 6379
+    ports:
+      - "6379:6379"

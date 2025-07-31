@@ -1,0 +1,17 @@
+{% extends "emails/email_template.html" %}
+
+{% load i18n %}
+
+{% block content %}
+
+    <p>
+        {% blocktrans %}
+            Your permissions have been changed to {{ folder_role }} for {{ folder_name }} in project {{ project_name }} at {{ APP_TITLE }}.
+        {% endblocktrans %}
+    </p>
+
+    <p>
+        <a href="{{ folder_url }}">{{ folder_url }}</a>
+    </p>
+
+{% endblock %}

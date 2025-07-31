@@ -1,0 +1,17 @@
+{% extends "emails/email_template.html" %}
+
+{% load i18n %}
+
+{% block content %}
+
+    <p>
+        {% blocktrans %}
+            You can no longer access the folder {{ folder_name }} in {{ project_name }} at {{ APP_TITLE }}.
+        {% endblocktrans %}
+    </p>
+
+    <p>
+        <a href="{{ project_url }}">{{ project_url }}</a>
+    </p>
+
+{% endblock %}

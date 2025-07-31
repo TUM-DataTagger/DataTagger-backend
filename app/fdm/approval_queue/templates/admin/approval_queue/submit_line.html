@@ -1,0 +1,10 @@
+{% extends "admin/submit_line.html" %}
+
+{% load i18n admin_urls %}
+
+{% block submit-row %}
+    {{ block.super }}
+    {% if has_approve_permission %}
+        <input type="submit" name="_approve" value="{% trans "Approve" %}">
+    {% endif %}
+{% endblock %}

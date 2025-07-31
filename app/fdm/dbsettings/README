@@ -1,0 +1,4 @@
+DISCLAIMER:
+This app was originally forked from https://kumig.it/kumisystems/django-dbsettings/
+and is a heavily modified version of it to suit our needs. In addition, the original app could not be installed
+correctly because the distribution package was broken.

@@ -1,0 +1,10 @@
+[run]
+omit =
+    manage.py
+    passenger_wsgi.py
+    wsgi.py
+    fdm/settings/*
+    fdm/core/management/commands/create_app.py
+
+[report]
+show_missing=true

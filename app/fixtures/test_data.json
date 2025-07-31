@@ -1,0 +1,3975 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-01-12T12:26:32.119Z",
+        "user": 1,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "superuser",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-01-16T07:05:45.061Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "7664714f-a4e0-4acf-b4c3-99eb0c210c41",
+        "object_repr": "Local storage (LOCAL)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-01-16T07:05:49.712Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "8bc92dc1-6adf-4e57-83c3-82fe85e24436",
+        "object_repr": "NAS LRZ (NAS_LRZ)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-01-16T07:08:56.003Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "9b85ce07-e7a1-464c-bfe7-97c16e7dca39",
+        "object_repr": "General folder for project 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-01-16T07:09:08.093Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "0e972c9c-7a96-4df0-817b-eaa90a202bba",
+        "object_repr": "General folder for project 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-01-16T07:09:20.828Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "fc52ce40-6e5e-43a1-9532-1aa578ca74f9",
+        "object_repr": "General folder for project 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-01-16T07:09:29.972Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "9b85ce07-e7a1-464c-bfe7-97c16e7dca39",
+        "object_repr": "General folder for project 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Storage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-01-16T07:09:33.489Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "0e972c9c-7a96-4df0-817b-eaa90a202bba",
+        "object_repr": "General folder for project 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Storage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-01-16T07:09:37.187Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "fc52ce40-6e5e-43a1-9532-1aa578ca74f9",
+        "object_repr": "General folder for project 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Storage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-01-16T07:09:43.041Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "9b85ce07-e7a1-464c-bfe7-97c16e7dca39",
+        "object_repr": "General folder for project 1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-01-16T07:09:56.888Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "31df8f05-04dd-4b96-ab6f-00091fb5c823",
+        "object_repr": "Custom folder for project 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-01-16T07:10:30.896Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "e7459d4d-8b64-4992-af1b-8b1918aa993a",
+        "object_repr": "superuser@domain.com (Folder: Custom folder for project 1 in Project: Project 1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-01-16T07:10:35.086Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "e7459d4d-8b64-4992-af1b-8b1918aa993a",
+        "object_repr": "superuser@domain.com (Folder: Custom folder for project 1 in Project: Project 1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is folder admin\", \"Can edit\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-01-16T07:19:21.065Z",
+        "user": 1,
+        "content_type": 26,
+        "object_id": "2",
+        "object_repr": "user_1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-01-16T07:19:56.735Z",
+        "user": 1,
+        "content_type": 26,
+        "object_id": "2",
+        "object_repr": "user_1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-01-16T07:20:00.815Z",
+        "user": 1,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "superuser",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-01-16T07:20:06.435Z",
+        "user": 1,
+        "content_type": 26,
+        "object_id": "3",
+        "object_repr": "user_2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-01-16T07:21:03.981Z",
+        "user": 1,
+        "content_type": 26,
+        "object_id": "3",
+        "object_repr": "user_2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-01-16T07:33:52.044Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "2a6f7867-73d5-4541-8952-617ddd2e2b28",
+        "object_repr": "author (TEXT)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-01-16T07:34:14.708Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "fc77d5ed-9a8f-45fb-a81a-21e2880be544",
+        "object_repr": "year (INTEGER)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-01-16T07:34:37.393Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "c32a3bd4-33b0-450a-9a57-040ca2598f13",
+        "object_repr": "costs (CURRENCY)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-01-16T11:17:10.796Z",
+        "user": 1,
+        "content_type": 22,
+        "object_id": "5daecdcc-1e97-4451-9458-e0a68026be6c",
+        "object_repr": "1MB.bin: 5daecdcc-1e97-4451-9458-e0a68026be6c",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-01-16T14:04:48.642Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "b5719532-6b3c-4a23-9005-af8f13fbf736",
+        "object_repr": "superuser@domain.com (Folder: General folder for project 1 in Project: Project 1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-01-16T14:04:49.731Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "b5719532-6b3c-4a23-9005-af8f13fbf736",
+        "object_repr": "superuser@domain.com (Folder: General folder for project 1 in Project: Project 1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-01-16T14:05:15.662Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1081d5c7-1b60-4795-af03-caafcf2385fe",
+        "object_repr": "user_1@domain.com (Project: Project 1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-01-16T14:05:19.591Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "7c65f42a-660a-409c-b260-6ea0cbd6d1a3",
+        "object_repr": "user_2@domain.com (Project: Project 1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-01-16T14:05:53.838Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "d18f96f5-6c36-4fe8-aff5-b50a70dbe4d8",
+        "object_repr": "user_1@domain.com (Folder: Custom folder for project 1 in Project: Project 1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-01-16T14:05:59.358Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "27948696-c32f-4254-89b2-0775779cf384",
+        "object_repr": "user_2@domain.com (Folder: Custom folder for project 1 in Project: Project 1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-01-17T08:04:37.083Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "00c4c4e3-3f4a-464d-90f0-1bacf419ef19",
+        "object_repr": "user_2@domain.com (Project: Project 2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-01-17T08:05:04.201Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "46c5c32f-73b8-42a9-9a54-f57ace82abd3",
+        "object_repr": "Folder created by user2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-01-17T08:05:26.966Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "f15fe5cb-7876-4fb2-ac3d-bbcd438167fc",
+        "object_repr": "user_2@domain.com (Folder: Folder created by user2 in Project: Project 2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-01-17T08:09:00.437Z",
+        "user": 1,
+        "content_type": 26,
+        "object_id": "3",
+        "object_repr": "user_2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-01-17T08:24:48.295Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1ee36f7a-9c4d-4d90-99b6-b6ada8db3bde",
+        "object_repr": "Another folder",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Storage\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add blacklisted token",
+        "content_type": 6,
+        "codename": "add_blacklistedtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change blacklisted token",
+        "content_type": 6,
+        "codename": "change_blacklistedtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete blacklisted token",
+        "content_type": 6,
+        "codename": "delete_blacklistedtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view blacklisted token",
+        "content_type": 6,
+        "codename": "view_blacklistedtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add Password Reset Token",
+        "content_type": 7,
+        "codename": "add_resetpasswordtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change Password Reset Token",
+        "content_type": 7,
+        "codename": "change_resetpasswordtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete Password Reset Token",
+        "content_type": 7,
+        "codename": "delete_resetpasswordtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view Password Reset Token",
+        "content_type": 7,
+        "codename": "view_resetpasswordtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add Flag",
+        "content_type": 8,
+        "codename": "add_flag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change Flag",
+        "content_type": 8,
+        "codename": "change_flag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete Flag",
+        "content_type": 8,
+        "codename": "delete_flag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view Flag",
+        "content_type": 8,
+        "codename": "view_flag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add Sample",
+        "content_type": 9,
+        "codename": "add_sample"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change Sample",
+        "content_type": 9,
+        "codename": "change_sample"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete Sample",
+        "content_type": 9,
+        "codename": "delete_sample"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view Sample",
+        "content_type": 9,
+        "codename": "view_sample"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add Switch",
+        "content_type": 10,
+        "codename": "add_switch"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change Switch",
+        "content_type": 10,
+        "codename": "change_switch"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete Switch",
+        "content_type": 10,
+        "codename": "delete_switch"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view Switch",
+        "content_type": 10,
+        "codename": "view_switch"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add setting",
+        "content_type": 11,
+        "codename": "add_setting"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change setting",
+        "content_type": 11,
+        "codename": "change_setting"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete setting",
+        "content_type": 11,
+        "codename": "delete_setting"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view setting",
+        "content_type": 11,
+        "codename": "view_setting"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add file parser",
+        "content_type": 12,
+        "codename": "add_fileparser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change file parser",
+        "content_type": 12,
+        "codename": "change_fileparser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete file parser",
+        "content_type": 12,
+        "codename": "delete_fileparser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view file parser",
+        "content_type": 12,
+        "codename": "view_fileparser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add folder",
+        "content_type": 13,
+        "codename": "add_folder"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change folder",
+        "content_type": 13,
+        "codename": "change_folder"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete folder",
+        "content_type": 13,
+        "codename": "delete_folder"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view folder",
+        "content_type": 13,
+        "codename": "view_folder"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add folder permission",
+        "content_type": 14,
+        "codename": "add_folderpermission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change folder permission",
+        "content_type": 14,
+        "codename": "change_folderpermission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete folder permission",
+        "content_type": 14,
+        "codename": "delete_folderpermission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view folder permission",
+        "content_type": 14,
+        "codename": "view_folderpermission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add metadata field",
+        "content_type": 15,
+        "codename": "add_metadatafield"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change metadata field",
+        "content_type": 15,
+        "codename": "change_metadatafield"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete metadata field",
+        "content_type": 15,
+        "codename": "delete_metadatafield"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view metadata field",
+        "content_type": 15,
+        "codename": "view_metadatafield"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add metadata",
+        "content_type": 16,
+        "codename": "add_metadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change metadata",
+        "content_type": 16,
+        "codename": "change_metadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete metadata",
+        "content_type": 16,
+        "codename": "delete_metadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view metadata",
+        "content_type": 16,
+        "codename": "view_metadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add project",
+        "content_type": 17,
+        "codename": "add_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change project",
+        "content_type": 17,
+        "codename": "change_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete project",
+        "content_type": 17,
+        "codename": "delete_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view project",
+        "content_type": 17,
+        "codename": "view_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add project membership",
+        "content_type": 18,
+        "codename": "add_projectmembership"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change project membership",
+        "content_type": 18,
+        "codename": "change_projectmembership"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete project membership",
+        "content_type": 18,
+        "codename": "delete_projectmembership"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view project membership",
+        "content_type": 18,
+        "codename": "view_projectmembership"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add upload",
+        "content_type": 19,
+        "codename": "add_upload"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change upload",
+        "content_type": 19,
+        "codename": "change_upload"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete upload",
+        "content_type": 19,
+        "codename": "delete_upload"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view upload",
+        "content_type": 19,
+        "codename": "view_upload"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add storage",
+        "content_type": 20,
+        "codename": "add_storage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change storage",
+        "content_type": 20,
+        "codename": "change_storage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete storage",
+        "content_type": 20,
+        "codename": "delete_storage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view storage",
+        "content_type": 20,
+        "codename": "view_storage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add uploads dataset",
+        "content_type": 21,
+        "codename": "add_uploadsdataset"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change uploads dataset",
+        "content_type": 21,
+        "codename": "change_uploadsdataset"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete uploads dataset",
+        "content_type": 21,
+        "codename": "delete_uploadsdataset"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view uploads dataset",
+        "content_type": 21,
+        "codename": "view_uploadsdataset"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+        "name": "Can add uploads version",
+        "content_type": 22,
+        "codename": "add_uploadsversion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+        "name": "Can change uploads version",
+        "content_type": 22,
+        "codename": "change_uploadsversion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+        "name": "Can delete uploads version",
+        "content_type": 22,
+        "codename": "delete_uploadsversion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+        "name": "Can view uploads version",
+        "content_type": 22,
+        "codename": "view_uploadsversion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+        "name": "Can add uploads version file",
+        "content_type": 23,
+        "codename": "add_uploadsversionfile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+        "name": "Can change uploads version file",
+        "content_type": 23,
+        "codename": "change_uploadsversionfile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+        "name": "Can delete uploads version file",
+        "content_type": 23,
+        "codename": "delete_uploadsversionfile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+        "name": "Can view uploads version file",
+        "content_type": 23,
+        "codename": "view_uploadsversionfile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+        "name": "Can add uploads version metadata",
+        "content_type": 24,
+        "codename": "add_uploadsversionmetadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+        "name": "Can change uploads version metadata",
+        "content_type": 24,
+        "codename": "change_uploadsversionmetadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+        "name": "Can delete uploads version metadata",
+        "content_type": 24,
+        "codename": "delete_uploadsversionmetadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+        "name": "Can view uploads version metadata",
+        "content_type": 24,
+        "codename": "view_uploadsversionmetadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 97,
+    "fields": {
+        "name": "Can add uploads version file metadata",
+        "content_type": 25,
+        "codename": "add_uploadsversionfilemetadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 98,
+    "fields": {
+        "name": "Can change uploads version file metadata",
+        "content_type": 25,
+        "codename": "change_uploadsversionfilemetadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 99,
+    "fields": {
+        "name": "Can delete uploads version file metadata",
+        "content_type": 25,
+        "codename": "delete_uploadsversionfilemetadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 100,
+    "fields": {
+        "name": "Can view uploads version file metadata",
+        "content_type": 25,
+        "codename": "view_uploadsversionfilemetadata"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 101,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 26,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 102,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 26,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 103,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 26,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 104,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 26,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 105,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 27,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 106,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 27,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 107,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 27,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 108,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 27,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+        "name": "TUM Members",
+        "permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "blacklist",
+        "model": "blacklistedtoken"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "django_rest_passwordreset",
+        "model": "resetpasswordtoken"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "waffle",
+        "model": "flag"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "waffle",
+        "model": "sample"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "waffle",
+        "model": "switch"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "dbsettings",
+        "model": "setting"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "file_parser",
+        "model": "fileparser"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "folders",
+        "model": "folder"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "folders",
+        "model": "folderpermission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "metadata",
+        "model": "metadatafield"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "metadata",
+        "model": "metadata"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "projects",
+        "model": "project"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "projects",
+        "model": "projectmembership"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "rest_framework_tus",
+        "model": "upload"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "storages",
+        "model": "storage"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+        "app_label": "uploads",
+        "model": "uploadsdataset"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+        "app_label": "uploads",
+        "model": "uploadsversion"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+        "app_label": "uploads",
+        "model": "uploadsversionfile"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 24,
+    "fields": {
+        "app_label": "uploads",
+        "model": "uploadsversionmetadata"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 25,
+    "fields": {
+        "app_label": "uploads",
+        "model": "uploadsversionfilemetadata"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 26,
+    "fields": {
+        "app_label": "users",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 27,
+    "fields": {
+        "app_label": "users",
+        "model": "group"
+    }
+},
+{
+    "model": "dbsettings.setting",
+    "pk": "APP_TITLE",
+    "fields": {
+        "value": "FDM",
+        "description": "The title of the application"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "02e20209-5012-4c27-bf18-065a555470cc",
+    "fields": {
+        "creation_date": "2024-01-17T08:06:37.472Z",
+        "last_modification_date": "2024-01-17T08:07:37.507Z",
+        "parser_type": "EXIF_DATA",
+        "file": "84f2f4d4-2995-442e-8a7e-a085cb0696d7",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "055d03c6-5817-401d-8cfc-79b9d4a0c96f",
+    "fields": {
+        "creation_date": "2024-01-17T08:26:37.467Z",
+        "last_modification_date": "2024-01-17T08:27:37.494Z",
+        "parser_type": "FILE_INFORMATION",
+        "file": "49d6593f-b2f8-4aaa-a661-5aef955edc21",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "0c85f47e-b527-46ca-8731-7b1a5bfbda99",
+    "fields": {
+        "creation_date": "2024-01-16T07:42:49.338Z",
+        "last_modification_date": "2024-01-16T07:43:49.323Z",
+        "parser_type": "CHECKSUM_SHA512",
+        "file": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "0f5c2462-96b3-49e1-a153-3b445cd69e42",
+    "fields": {
+        "creation_date": "2024-01-17T08:26:37.457Z",
+        "last_modification_date": "2024-01-17T08:27:37.488Z",
+        "parser_type": "CHECKSUM_SHA512",
+        "file": "49d6593f-b2f8-4aaa-a661-5aef955edc21",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "1492d64f-e7e5-404d-af1f-8b87b963256e",
+    "fields": {
+        "creation_date": "2024-01-17T08:17:37.450Z",
+        "last_modification_date": "2024-01-17T08:18:31.439Z",
+        "parser_type": "CHECKSUM_MD5",
+        "file": "2524ee99-e115-4e28-aa49-a8bcd7187b31",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "169eeb75-cf19-40c1-bbb7-74be48a233d2",
+    "fields": {
+        "creation_date": "2024-01-17T08:17:37.461Z",
+        "last_modification_date": "2024-01-17T08:18:37.454Z",
+        "parser_type": "CHECKSUM_SHA512",
+        "file": "2524ee99-e115-4e28-aa49-a8bcd7187b31",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "16a59622-23ae-4d1c-8432-234fda5cf2b1",
+    "fields": {
+        "creation_date": "2024-01-16T07:42:49.349Z",
+        "last_modification_date": "2024-01-16T07:43:49.354Z",
+        "parser_type": "FILE_INFORMATION",
+        "file": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "3f3ac330-becc-4b28-8643-bb0a4637efcc",
+    "fields": {
+        "creation_date": "2024-01-17T08:06:37.475Z",
+        "last_modification_date": "2024-01-17T08:07:37.483Z",
+        "parser_type": "MIME_TYPE",
+        "file": "84f2f4d4-2995-442e-8a7e-a085cb0696d7",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "428f8fe8-a067-4dd4-9d28-0a4ecdeb8702",
+    "fields": {
+        "creation_date": "2024-01-17T08:06:37.465Z",
+        "last_modification_date": "2024-01-17T08:07:37.481Z",
+        "parser_type": "CHECKSUM_SHA256",
+        "file": "84f2f4d4-2995-442e-8a7e-a085cb0696d7",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "692bad49-c702-4e32-badf-5998022a9257",
+    "fields": {
+        "creation_date": "2024-01-17T08:17:37.468Z",
+        "last_modification_date": "2024-01-17T08:18:37.505Z",
+        "parser_type": "EXIF_DATA",
+        "file": "2524ee99-e115-4e28-aa49-a8bcd7187b31",
+        "status": "ERROR"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "6b5aa7f4-303d-46cf-8341-999cc2eced4d",
+    "fields": {
+        "creation_date": "2024-01-17T08:17:37.459Z",
+        "last_modification_date": "2024-01-17T08:18:37.455Z",
+        "parser_type": "CHECKSUM_SHA256",
+        "file": "2524ee99-e115-4e28-aa49-a8bcd7187b31",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "75b6ea7d-a303-4ad5-b7e2-dd201d0a372b",
+    "fields": {
+        "creation_date": "2024-01-17T08:17:37.472Z",
+        "last_modification_date": "2024-01-17T08:18:37.480Z",
+        "parser_type": "FILE_INFORMATION",
+        "file": "2524ee99-e115-4e28-aa49-a8bcd7187b31",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "79dd9ff2-9fe7-42ad-a36d-f282bf74af77",
+    "fields": {
+        "creation_date": "2024-01-17T08:26:37.465Z",
+        "last_modification_date": "2024-01-17T08:26:37.482Z",
+        "parser_type": "MIME_TYPE",
+        "file": "49d6593f-b2f8-4aaa-a661-5aef955edc21",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "7a094883-1036-433d-9720-aac7db9e71d9",
+    "fields": {
+        "creation_date": "2024-01-16T07:55:49.353Z",
+        "last_modification_date": "2024-01-16T07:56:49.352Z",
+        "parser_type": "MIME_TYPE",
+        "file": "c357eacf-3298-4803-89c5-ac2428d08650",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "7cf52b6a-90ee-48b8-9573-a52a17ba5cf8",
+    "fields": {
+        "creation_date": "2024-01-17T08:06:37.477Z",
+        "last_modification_date": "2024-01-17T08:07:37.490Z",
+        "parser_type": "FILE_INFORMATION",
+        "file": "84f2f4d4-2995-442e-8a7e-a085cb0696d7",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "8fb0e685-34e6-4f8d-8439-6dbd7188c1d2",
+    "fields": {
+        "creation_date": "2024-01-17T08:26:37.455Z",
+        "last_modification_date": "2024-01-17T08:27:37.487Z",
+        "parser_type": "CHECKSUM_SHA256",
+        "file": "49d6593f-b2f8-4aaa-a661-5aef955edc21",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "9709347d-b2c6-4f81-8206-42861a578082",
+    "fields": {
+        "creation_date": "2024-01-16T07:42:49.329Z",
+        "last_modification_date": "2024-01-16T07:43:43.435Z",
+        "parser_type": "CHECKSUM_MD5",
+        "file": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "9994828e-12aa-4c01-84e1-c39d4a05400b",
+    "fields": {
+        "creation_date": "2024-01-16T07:42:49.346Z",
+        "last_modification_date": "2024-01-16T07:43:49.349Z",
+        "parser_type": "MIME_TYPE",
+        "file": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "a3107e6c-28a8-4cef-a6a8-50e196eea08f",
+    "fields": {
+        "creation_date": "2024-01-16T07:55:49.337Z",
+        "last_modification_date": "2024-01-16T07:56:49.346Z",
+        "parser_type": "CHECKSUM_SHA512",
+        "file": "c357eacf-3298-4803-89c5-ac2428d08650",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "b0a6a9f8-fd16-4383-9dda-f577b18ead6a",
+    "fields": {
+        "creation_date": "2024-01-17T08:26:37.449Z",
+        "last_modification_date": "2024-01-17T08:27:31.439Z",
+        "parser_type": "CHECKSUM_MD5",
+        "file": "49d6593f-b2f8-4aaa-a661-5aef955edc21",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "b40513d8-5771-42d0-93db-1564477c900d",
+    "fields": {
+        "creation_date": "2024-01-16T07:55:49.335Z",
+        "last_modification_date": "2024-01-16T07:56:49.352Z",
+        "parser_type": "CHECKSUM_SHA256",
+        "file": "c357eacf-3298-4803-89c5-ac2428d08650",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "c094a713-75f8-4367-bdc7-f1315bf33262",
+    "fields": {
+        "creation_date": "2024-01-17T08:06:37.461Z",
+        "last_modification_date": "2024-01-17T08:07:31.452Z",
+        "parser_type": "CHECKSUM_MD5",
+        "file": "84f2f4d4-2995-442e-8a7e-a085cb0696d7",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "c69a5153-6848-40ab-bf99-9ff530e83863",
+    "fields": {
+        "creation_date": "2024-01-17T08:26:37.464Z",
+        "last_modification_date": "2024-01-17T08:27:37.499Z",
+        "parser_type": "EXIF_DATA",
+        "file": "49d6593f-b2f8-4aaa-a661-5aef955edc21",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "c85e3de6-95cc-45b6-986d-bb7a2190b006",
+    "fields": {
+        "creation_date": "2024-01-17T08:17:37.470Z",
+        "last_modification_date": "2024-01-17T08:18:37.477Z",
+        "parser_type": "MIME_TYPE",
+        "file": "2524ee99-e115-4e28-aa49-a8bcd7187b31",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "d8223c47-992b-4a68-9cea-e9e23a997439",
+    "fields": {
+        "creation_date": "2024-01-16T07:55:49.331Z",
+        "last_modification_date": "2024-01-16T07:56:43.474Z",
+        "parser_type": "CHECKSUM_MD5",
+        "file": "c357eacf-3298-4803-89c5-ac2428d08650",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "efeed558-e5f2-4ec2-aa6a-0b5e7827e838",
+    "fields": {
+        "creation_date": "2024-01-16T07:42:49.334Z",
+        "last_modification_date": "2024-01-16T07:43:49.348Z",
+        "parser_type": "CHECKSUM_SHA256",
+        "file": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "fe1ee888-c72b-4a2d-9dcd-10fc62e63c35",
+    "fields": {
+        "creation_date": "2024-01-17T08:06:37.467Z",
+        "last_modification_date": "2024-01-17T08:07:37.479Z",
+        "parser_type": "CHECKSUM_SHA512",
+        "file": "84f2f4d4-2995-442e-8a7e-a085cb0696d7",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "file_parser.fileparser",
+    "pk": "fede5f7e-5e82-4716-ae6a-31c3e22eb4ab",
+    "fields": {
+        "creation_date": "2024-01-16T07:55:49.354Z",
+        "last_modification_date": "2024-01-16T07:56:49.349Z",
+        "parser_type": "FILE_INFORMATION",
+        "file": "c357eacf-3298-4803-89c5-ac2428d08650",
+        "status": "FINISHED"
+    }
+},
+{
+    "model": "folders.folder",
+    "pk": "0e972c9c-7a96-4df0-817b-eaa90a202bba",
+    "fields": {
+        "creation_date": "2024-01-16T07:09:03.833Z",
+        "last_modification_date": "2024-01-16T07:09:33.486Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "project": "a811336a-15fc-40be-9a07-56f22ae484c2",
+        "name": "General folder for project 2",
+        "storage": "7664714f-a4e0-4acf-b4c3-99eb0c210c41"
+    }
+},
+{
+    "model": "folders.folder",
+    "pk": "1ee36f7a-9c4d-4d90-99b6-b6ada8db3bde",
+    "fields": {
+        "creation_date": "2024-01-17T08:22:29.599Z",
+        "last_modification_date": "2024-01-17T08:24:48.292Z",
+        "created_by": 3,
+        "last_modified_by": 1,
+        "project": "69dc7722-ffb3-4a8c-a268-f286a662c941",
+        "name": "Another folder",
+        "storage": "8bc92dc1-6adf-4e57-83c3-82fe85e24436"
+    }
+},
+{
+    "model": "folders.folder",
+    "pk": "31df8f05-04dd-4b96-ab6f-00091fb5c823",
+    "fields": {
+        "creation_date": "2024-01-16T07:09:56.886Z",
+        "last_modification_date": "2024-01-16T07:09:56.886Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "project": "9ec9872e-79ef-4406-a182-84e5922e2c0e",
+        "name": "Custom folder for project 1",
+        "storage": "8bc92dc1-6adf-4e57-83c3-82fe85e24436"
+    }
+},
+{
+    "model": "folders.folder",
+    "pk": "46c5c32f-73b8-42a9-9a54-f57ace82abd3",
+    "fields": {
+        "creation_date": "2024-01-17T08:05:04.196Z",
+        "last_modification_date": "2024-01-17T08:05:04.197Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "project": "a811336a-15fc-40be-9a07-56f22ae484c2",
+        "name": "Folder created by user2",
+        "storage": "7664714f-a4e0-4acf-b4c3-99eb0c210c41"
+    }
+},
+{
+    "model": "folders.folder",
+    "pk": "9b85ce07-e7a1-464c-bfe7-97c16e7dca39",
+    "fields": {
+        "creation_date": "2024-01-16T07:08:20.793Z",
+        "last_modification_date": "2024-01-16T07:09:43.037Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "project": "9ec9872e-79ef-4406-a182-84e5922e2c0e",
+        "name": "General folder for project 1",
+        "storage": "7664714f-a4e0-4acf-b4c3-99eb0c210c41"
+    }
+},
+{
+    "model": "folders.folder",
+    "pk": "dc1d116c-34c1-4694-82e3-dd8026ba52cc",
+    "fields": {
+        "creation_date": "2024-01-17T08:21:21.016Z",
+        "last_modification_date": "2024-01-17T08:21:21.016Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "project": "69dc7722-ffb3-4a8c-a268-f286a662c941",
+        "name": "General",
+        "storage": null
+    }
+},
+{
+    "model": "folders.folder",
+    "pk": "fc52ce40-6e5e-43a1-9532-1aa578ca74f9",
+    "fields": {
+        "creation_date": "2024-01-16T07:09:12.442Z",
+        "last_modification_date": "2024-01-16T07:09:37.183Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "project": "a411ff88-2b1d-48df-8f62-e79f68a05f93",
+        "name": "General folder for project 3",
+        "storage": "7664714f-a4e0-4acf-b4c3-99eb0c210c41"
+    }
+},
+{
+    "model": "folders.folderpermission",
+    "pk": "27948696-c32f-4254-89b2-0775779cf384",
+    "fields": {
+        "project_membership": "7c65f42a-660a-409c-b260-6ea0cbd6d1a3",
+        "folder": "31df8f05-04dd-4b96-ab6f-00091fb5c823",
+        "is_folder_admin": false,
+        "can_edit": false
+    }
+},
+{
+    "model": "folders.folderpermission",
+    "pk": "91b79409-6b22-4cde-925f-91879aed41e0",
+    "fields": {
+        "project_membership": "6979f008-41bd-4406-9f7d-065a7e6488ad",
+        "folder": "fc52ce40-6e5e-43a1-9532-1aa578ca74f9",
+        "is_folder_admin": true,
+        "can_edit": true
+    }
+},
+{
+    "model": "folders.folderpermission",
+    "pk": "b5719532-6b3c-4a23-9005-af8f13fbf736",
+    "fields": {
+        "project_membership": "3a15b2b2-1ab9-4230-a551-0ad80575e83e",
+        "folder": "9b85ce07-e7a1-464c-bfe7-97c16e7dca39",
+        "is_folder_admin": true,
+        "can_edit": true
+    }
+},
+{
+    "model": "folders.folderpermission",
+    "pk": "c3113a5a-22a9-400e-aac8-013766d69b52",
+    "fields": {
+        "project_membership": "b8caf869-6a77-4ace-9fce-6332d436df7c",
+        "folder": "dc1d116c-34c1-4694-82e3-dd8026ba52cc",
+        "is_folder_admin": true,
+        "can_edit": true
+    }
+},
+{
+    "model": "folders.folderpermission",
+    "pk": "d18f96f5-6c36-4fe8-aff5-b50a70dbe4d8",
+    "fields": {
+        "project_membership": "1081d5c7-1b60-4795-af03-caafcf2385fe",
+        "folder": "31df8f05-04dd-4b96-ab6f-00091fb5c823",
+        "is_folder_admin": true,
+        "can_edit": true
+    }
+},
+{
+    "model": "folders.folderpermission",
+    "pk": "e2c87c4d-a3a8-473f-9f6a-9dbad26dc2ef",
+    "fields": {
+        "project_membership": "21e5ac65-2c37-42a5-a4df-58b4229ad4df",
+        "folder": "0e972c9c-7a96-4df0-817b-eaa90a202bba",
+        "is_folder_admin": true,
+        "can_edit": true
+    }
+},
+{
+    "model": "folders.folderpermission",
+    "pk": "e7459d4d-8b64-4992-af1b-8b1918aa993a",
+    "fields": {
+        "project_membership": "3a15b2b2-1ab9-4230-a551-0ad80575e83e",
+        "folder": "31df8f05-04dd-4b96-ab6f-00091fb5c823",
+        "is_folder_admin": true,
+        "can_edit": true
+    }
+},
+{
+    "model": "folders.folderpermission",
+    "pk": "f15fe5cb-7876-4fb2-ac3d-bbcd438167fc",
+    "fields": {
+        "project_membership": "00c4c4e3-3f4a-464d-90f0-1bacf419ef19",
+        "folder": "46c5c32f-73b8-42a9-9a54-f57ace82abd3",
+        "is_folder_admin": true,
+        "can_edit": true
+    }
+},
+{
+    "model": "metadata.metadatafield",
+    "pk": "2a6f7867-73d5-4541-8952-617ddd2e2b28",
+    "fields": {
+        "creation_date": "2024-01-16T07:33:52.043Z",
+        "last_modification_date": "2024-01-16T07:33:52.043Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "key": "author",
+        "field_type": "TEXT",
+        "read_only": false
+    }
+},
+{
+    "model": "metadata.metadatafield",
+    "pk": "c32a3bd4-33b0-450a-9a57-040ca2598f13",
+    "fields": {
+        "creation_date": "2024-01-16T07:34:37.392Z",
+        "last_modification_date": "2024-01-16T07:34:37.392Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "key": "costs",
+        "field_type": "CURRENCY",
+        "read_only": false
+    }
+},
+{
+    "model": "metadata.metadatafield",
+    "pk": "fc77d5ed-9a8f-45fb-a81a-21e2880be544",
+    "fields": {
+        "creation_date": "2024-01-16T07:34:14.707Z",
+        "last_modification_date": "2024-01-16T07:34:14.707Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "key": "year",
+        "field_type": "INTEGER",
+        "read_only": false
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "02b1f308-4510-47ee-9b18-a490db4e09bf",
+    "fields": {
+        "creation_date": "2024-01-16T07:43:49.346Z",
+        "last_modification_date": "2024-01-16T07:43:49.346Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "MIME_TYPE",
+        "read_only": true,
+        "value": "application/octet-stream"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "0384d180-05e6-402c-a8ad-1b90341e34bf",
+    "fields": {
+        "creation_date": "2024-01-16T07:56:49.342Z",
+        "last_modification_date": "2024-01-16T07:56:49.342Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "FILE_NAME",
+        "read_only": true,
+        "value": "10MB.bin"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "03f52386-dcf5-4438-8f00-bca6f88fe3ba",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.499Z",
+        "last_modification_date": "2024-01-17T08:07:37.499Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "EXIF_SOFTWARE",
+        "read_only": true,
+        "value": "Nikon Transfer 1.1 W"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "06ae1844-f51d-4657-8aad-fdc1786e5c34",
+    "fields": {
+        "creation_date": "2024-01-16T07:42:00.483Z",
+        "last_modification_date": "2024-01-16T07:42:00.483Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "ORIGINAL_FILE_NAME",
+        "read_only": true,
+        "value": "1MB.bin"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "06b22505-2a23-4e2d-8663-d1a8407181c2",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.505Z",
+        "last_modification_date": "2024-01-17T08:07:37.505Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "EXIF_XRESOLUTION",
+        "read_only": true,
+        "value": "300.0"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "07b4d415-f00a-4a77-be8f-17aee8e8e0ff",
+    "fields": {
+        "creation_date": "2024-01-16T07:43:49.319Z",
+        "last_modification_date": "2024-01-16T07:43:49.319Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "CHECKSUM_SHA512",
+        "read_only": true,
+        "value": "95db023a41ca07e58f9ea9c982824fc470f69e39df554f73078c194f263b7207fb0068e6662ff592011872ff284c62f11c46235809395cfb04ee6e71ef4aac9f"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "0fb3b9b5-aead-4ad3-996d-2994c9bb8cbf",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.506Z",
+        "last_modification_date": "2024-01-17T08:07:37.506Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "EXIF_YRESOLUTION",
+        "read_only": true,
+        "value": "300.0"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "0ff2c43e-86c0-47a8-99b4-7813a5d7b9f6",
+    "fields": {
+        "creation_date": "2024-01-17T08:17:49.861Z",
+        "last_modification_date": "2024-01-17T08:17:49.861Z",
+        "created_by": 2,
+        "last_modified_by": 2,
+        "field": null,
+        "custom_key": "document_type",
+        "read_only": false,
+        "value": "image_with_exif_data"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "20c7c554-0f6f-4db7-9334-ecdf6bb2850e",
+    "fields": {
+        "creation_date": "2024-01-16T07:56:49.344Z",
+        "last_modification_date": "2024-01-16T07:56:49.344Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "FILE_SIZE",
+        "read_only": true,
+        "value": "10485760"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "2171a857-8174-4cb9-9155-efec9f8a9c1e",
+    "fields": {
+        "creation_date": "2024-01-16T07:43:49.345Z",
+        "last_modification_date": "2024-01-16T07:43:49.345Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "CHECKSUM_SHA256",
+        "read_only": true,
+        "value": "fe24224cdb147ad575d83a783ff623f64f0f84cb60380b3bd64ba75de83b2916"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "246636e0-6625-47f2-aa4f-8b8a4d088d97",
+    "fields": {
+        "creation_date": "2024-01-17T08:18:37.453Z",
+        "last_modification_date": "2024-01-17T08:18:37.453Z",
+        "created_by": 2,
+        "last_modified_by": 2,
+        "field": null,
+        "custom_key": "CHECKSUM_SHA256",
+        "read_only": true,
+        "value": "f86ec0d3a6c82e31657bb1886e1ec95579329fa98d8be511ac1e8497c778e07f"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "256cc30f-6d9a-4962-97ae-decc3fc8f0cf",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.478Z",
+        "last_modification_date": "2024-01-17T08:07:37.478Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "CHECKSUM_SHA256",
+        "read_only": true,
+        "value": "17307b1207eb6487d7908e9d154890b46e3d2e0192369cfd3f4c33d5a5af4035"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "26628e2b-9392-46d0-ae59-66ecc32af7bf",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.489Z",
+        "last_modification_date": "2024-01-17T08:07:37.489Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "FILE_RELATIVE_PATH",
+        "read_only": true,
+        "value": "local/a811336a-15fc-40be-9a07-56f22ae484c2/46c5c32f-73b8-42a9-9a54-f57ace82abd3"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "26c4f143-f220-486d-937a-793af2fb76df",
+    "fields": {
+        "creation_date": "2024-01-17T08:27:37.498Z",
+        "last_modification_date": "2024-01-17T08:27:37.498Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "EXIF_ORIENTATION",
+        "read_only": true,
+        "value": "1"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "2783d932-a6c5-4dde-9900-f69dc97072a6",
+    "fields": {
+        "creation_date": "2024-01-17T08:27:37.484Z",
+        "last_modification_date": "2024-01-17T08:27:37.484Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "CHECKSUM_SHA256",
+        "read_only": true,
+        "value": "9be023624ccd5846beeb5b02d9b571251ef5bd8ed820389a430d114029f58eda"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "2e366fac-65e1-4532-883e-ae3f6d64a32b",
+    "fields": {
+        "creation_date": "2024-01-16T07:56:49.343Z",
+        "last_modification_date": "2024-01-16T07:56:49.343Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "CHECKSUM_SHA512",
+        "read_only": true,
+        "value": "dc7a903e5b8c6bd96dc846a91acb803f7784e264d40d2997e42bd27e55e03e87bb74ededf2d8b22c0483143338285e966ca40ceee691beeda4867bc24969d9ec"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "3184b9cc-10dd-4e44-870a-2e657af5ca3c",
+    "fields": {
+        "creation_date": "2024-01-16T07:55:29.953Z",
+        "last_modification_date": "2024-01-16T07:55:29.953Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "ORIGINAL_FILE_NAME",
+        "read_only": true,
+        "value": "10MB.bin"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "43ac5bbd-0b73-4ad7-b837-b0e162811111",
+    "fields": {
+        "creation_date": "2024-01-16T07:43:49.352Z",
+        "last_modification_date": "2024-01-16T07:43:49.352Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "FILE_RELATIVE_PATH",
+        "read_only": true,
+        "value": "local/9ec9872e-79ef-4406-a182-84e5922e2c0e/9b85ce07-e7a1-464c-bfe7-97c16e7dca39"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "43ba5c20-335c-4456-9f1c-03cf5d0b71ec",
+    "fields": {
+        "creation_date": "2024-01-17T08:27:37.490Z",
+        "last_modification_date": "2024-01-17T08:27:37.490Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "FILE_SIZE",
+        "read_only": true,
+        "value": "2190194"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "446e1de6-cd38-4867-b01a-7ca7ce30be79",
+    "fields": {
+        "creation_date": "2024-01-17T08:06:31.477Z",
+        "last_modification_date": "2024-01-17T08:06:31.477Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "ORIGINAL_FILE_NAME",
+        "read_only": true,
+        "value": "JPG image with EXIF data.jpg"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "45b18644-254c-4d07-8be2-5deb5b0b5e13",
+    "fields": {
+        "creation_date": "2024-01-16T07:56:49.349Z",
+        "last_modification_date": "2024-01-16T07:56:49.349Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "MIME_TYPE",
+        "read_only": true,
+        "value": "application/octet-stream"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "4743a818-0f80-4fa8-b138-b36927a3c1c8",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:22.016Z",
+        "last_modification_date": "2024-01-17T08:07:22.016Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "document_type",
+        "read_only": false,
+        "value": "image_with_hdr"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "48fc50d4-f2b0-47fd-ab83-50c1e160fa2a",
+    "fields": {
+        "creation_date": "2024-01-17T08:18:37.478Z",
+        "last_modification_date": "2024-01-17T08:18:37.478Z",
+        "created_by": 2,
+        "last_modified_by": 2,
+        "field": null,
+        "custom_key": "FILE_RELATIVE_PATH",
+        "read_only": true,
+        "value": "local/a811336a-15fc-40be-9a07-56f22ae484c2/46c5c32f-73b8-42a9-9a54-f57ace82abd3"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "4bc24123-36bb-4e6d-951c-73eb81e212f9",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.483Z",
+        "last_modification_date": "2024-01-17T08:07:37.483Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "FILE_NAME",
+        "read_only": true,
+        "value": "JPG_image_with_EXIF_data.jpg"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "55381c5d-2ee9-48a9-818c-dbc7d69269c9",
+    "fields": {
+        "creation_date": "2024-01-17T08:27:37.492Z",
+        "last_modification_date": "2024-01-17T08:27:37.492Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "EXIF_MAKE",
+        "read_only": true,
+        "value": "HMD Global"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "556268ff-e530-4d77-8735-02bd3fd2d71d",
+    "fields": {
+        "creation_date": "2024-01-16T11:17:39.184Z",
+        "last_modification_date": "2024-01-16T11:17:39.184Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "staff_member",
+        "read_only": false,
+        "value": "Maximiliana Musterfrau"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "557053db-41bb-4c60-8fa3-cf63dac2e0d5",
+    "fields": {
+        "creation_date": "2024-01-17T08:26:38.489Z",
+        "last_modification_date": "2024-01-17T08:26:38.489Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "attempt",
+        "read_only": false,
+        "value": "42"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "6170f61e-d5cd-4b08-9322-11d13f587f00",
+    "fields": {
+        "creation_date": "2024-01-16T07:56:49.347Z",
+        "last_modification_date": "2024-01-16T07:56:49.347Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "FILE_RELATIVE_PATH",
+        "read_only": true,
+        "value": "local/9ec9872e-79ef-4406-a182-84e5922e2c0e/9b85ce07-e7a1-464c-bfe7-97c16e7dca39"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "67e19718-e8f5-40dd-828b-14a302339515",
+    "fields": {
+        "creation_date": "2024-01-17T08:27:37.492Z",
+        "last_modification_date": "2024-01-17T08:27:37.492Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "FILE_RELATIVE_PATH",
+        "read_only": true,
+        "value": "nas_lrz/69dc7722-ffb3-4a8c-a268-f286a662c941/1ee36f7a-9c4d-4d90-99b6-b6ada8db3bde"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "6a182f3f-eabe-40c8-b1f5-3e69085ecad2",
+    "fields": {
+        "creation_date": "2024-01-17T08:18:37.477Z",
+        "last_modification_date": "2024-01-17T08:18:37.477Z",
+        "created_by": 2,
+        "last_modified_by": 2,
+        "field": null,
+        "custom_key": "FILE_SIZE",
+        "read_only": true,
+        "value": "29208"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "6f27f99c-9ff5-41fe-b48d-9fd3443842b1",
+    "fields": {
+        "creation_date": "2024-01-16T08:39:10.798Z",
+        "last_modification_date": "2024-01-16T08:39:10.798Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "staff_member",
+        "read_only": false,
+        "value": "Max Mustermann"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "75d6e6e0-6c40-4af6-b527-d84fd61c1732",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.490Z",
+        "last_modification_date": "2024-01-17T08:07:37.490Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "EXIF_RESOLUTIONUNIT",
+        "read_only": true,
+        "value": "2"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "78dd05af-9d47-4cb9-9c43-dfda49a9eafa",
+    "fields": {
+        "creation_date": "2024-01-16T07:56:43.473Z",
+        "last_modification_date": "2024-01-16T07:56:43.473Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "CHECKSUM_MD5",
+        "read_only": true,
+        "value": "dd9d4796b2d51f786568592a41689ff8"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "7c60a166-880b-45d7-aff1-ddfdda4f9c53",
+    "fields": {
+        "creation_date": "2024-01-17T08:26:01.205Z",
+        "last_modification_date": "2024-01-17T08:26:01.205Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "ORIGINAL_FILE_NAME",
+        "read_only": true,
+        "value": "JPG image with EXIF data from mobile.jpg"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "81199518-49d5-407a-90aa-c62e9f15cc5e",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.494Z",
+        "last_modification_date": "2024-01-17T08:07:37.494Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "EXIF_IMAGEDESCRIPTION",
+        "read_only": true,
+        "value": "                               "
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "8249cde7-8d11-4813-bf60-e1304b5aa17e",
+    "fields": {
+        "creation_date": "2024-01-16T07:56:49.349Z",
+        "last_modification_date": "2024-01-16T07:56:49.349Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "CHECKSUM_SHA256",
+        "read_only": true,
+        "value": "d71c0de627e41931b26b30d40e87f15ca64313404db095a6b867965c3797790f"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "83df72b8-b94a-4d07-be00-63b3d0724285",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.492Z",
+        "last_modification_date": "2024-01-17T08:07:37.492Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "EXIF_EXIFOFFSET",
+        "read_only": true,
+        "value": "268"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "86dc6e9b-1784-4469-9df2-e4e9eacbae34",
+    "fields": {
+        "creation_date": "2024-01-17T08:26:37.481Z",
+        "last_modification_date": "2024-01-17T08:26:37.481Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "MIME_TYPE",
+        "read_only": true,
+        "value": "image/jpeg"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "88330596-f388-40c7-b81f-c9e71c183a4a",
+    "fields": {
+        "creation_date": "2024-01-16T07:43:49.349Z",
+        "last_modification_date": "2024-01-16T07:43:49.349Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "FILE_SIZE",
+        "read_only": true,
+        "value": "1048576"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "94ba7fe4-615e-47f9-95a7-1ab8fbb1cddc",
+    "fields": {
+        "creation_date": "2024-01-16T08:39:10.797Z",
+        "last_modification_date": "2024-01-16T08:39:10.797Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "some_random_number",
+        "read_only": false,
+        "value": "1"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "9681d69c-2236-422a-85e2-0b9eb22b117e",
+    "fields": {
+        "creation_date": "2024-01-16T07:43:43.431Z",
+        "last_modification_date": "2024-01-16T07:43:43.431Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "CHECKSUM_MD5",
+        "read_only": true,
+        "value": "f0cd066d1757add97170b697d7bb81a8"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "96af1110-532f-48f7-a77d-cfd5c658da67",
+    "fields": {
+        "creation_date": "2024-01-17T08:27:37.487Z",
+        "last_modification_date": "2024-01-17T08:27:37.487Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "EXIF_GPSINFO",
+        "read_only": true,
+        "value": "361"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "9c698081-330d-47d1-b908-b326d3d82039",
+    "fields": {
+        "creation_date": "2024-01-17T08:27:37.494Z",
+        "last_modification_date": "2024-01-17T08:27:37.494Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "EXIF_MODEL",
+        "read_only": true,
+        "value": "Nokia 8.3 5G"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "9c87eee3-839a-4c36-84e4-036ec72d05f0",
+    "fields": {
+        "creation_date": "2024-01-17T08:17:28.018Z",
+        "last_modification_date": "2024-01-17T08:17:28.018Z",
+        "created_by": 2,
+        "last_modified_by": 2,
+        "field": null,
+        "custom_key": "ORIGINAL_FILE_NAME",
+        "read_only": true,
+        "value": "HEIF image with EXIF data.heif"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "9cc5ec10-a030-475d-ab86-8f053bf2bc50",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.497Z",
+        "last_modification_date": "2024-01-17T08:07:37.497Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "EXIF_MODEL",
+        "read_only": true,
+        "value": "COOLPIX P6000"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "a0d67819-1dfc-46da-8393-8ae23076fd53",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.496Z",
+        "last_modification_date": "2024-01-17T08:07:37.496Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "EXIF_MAKE",
+        "read_only": true,
+        "value": "NIKON"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "a0dfbca8-59da-4362-98d7-f5bb8c745d86",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.503Z",
+        "last_modification_date": "2024-01-17T08:07:37.503Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "EXIF_YCBCRPOSITIONING",
+        "read_only": true,
+        "value": "1"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "ad42612f-d2f4-48b4-a9c1-4c0bccbaeea1",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.500Z",
+        "last_modification_date": "2024-01-17T08:07:37.500Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "EXIF_ORIENTATION",
+        "read_only": true,
+        "value": "1"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "b70d5755-178a-4d42-8990-b1d3907367a2",
+    "fields": {
+        "creation_date": "2024-01-16T11:17:39.180Z",
+        "last_modification_date": "2024-01-16T11:17:39.180Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "document_type",
+        "read_only": false,
+        "value": "binary"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "b959a5f3-4348-46df-af16-da65f47d58f5",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.480Z",
+        "last_modification_date": "2024-01-17T08:07:37.480Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "MIME_TYPE",
+        "read_only": true,
+        "value": "image/jpeg"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "c0a1d6c8-8b2d-4fe2-8120-86b278c3598d",
+    "fields": {
+        "creation_date": "2024-01-17T08:27:37.496Z",
+        "last_modification_date": "2024-01-17T08:27:37.496Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "EXIF_SOFTWARE",
+        "read_only": true,
+        "value": "00WW_3_380_SP02"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "c172276d-04b9-4196-9f64-98abf4a01a79",
+    "fields": {
+        "creation_date": "2024-01-17T08:18:37.475Z",
+        "last_modification_date": "2024-01-17T08:18:37.475Z",
+        "created_by": 2,
+        "last_modified_by": 2,
+        "field": null,
+        "custom_key": "MIME_TYPE",
+        "read_only": true,
+        "value": "image/heic"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "c341f52b-f784-4a3e-b80a-07c3c1f661dc",
+    "fields": {
+        "creation_date": "2024-01-17T08:18:37.475Z",
+        "last_modification_date": "2024-01-17T08:18:37.475Z",
+        "created_by": 2,
+        "last_modified_by": 2,
+        "field": null,
+        "custom_key": "FILE_NAME",
+        "read_only": true,
+        "value": "HEIF_image_with_EXIF_data.heif"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "c941758d-659c-4c0e-92e6-5fea537b5b92",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.488Z",
+        "last_modification_date": "2024-01-17T08:07:37.488Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "EXIF_GPSINFO",
+        "read_only": true,
+        "value": "926"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "ca9dbd57-a18d-47de-80e2-23999714e6fd",
+    "fields": {
+        "creation_date": "2024-01-17T08:27:37.487Z",
+        "last_modification_date": "2024-01-17T08:27:37.487Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "FILE_NAME",
+        "read_only": true,
+        "value": "JPG_image_with_EXIF_data_from_mobile.jpg"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "caca2a5d-e641-404f-aca4-7bf3bb20e332",
+    "fields": {
+        "creation_date": "2024-01-17T08:27:31.438Z",
+        "last_modification_date": "2024-01-17T08:27:31.438Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "CHECKSUM_MD5",
+        "read_only": true,
+        "value": "0894bd2131f71720d9733db71d3697f0"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "cb881553-94ba-40d1-bfb1-7c16d0d4a02e",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.502Z",
+        "last_modification_date": "2024-01-17T08:07:37.502Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "EXIF_DATETIME",
+        "read_only": true,
+        "value": "2008:11:01 21:15:07"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "d2373179-bc8d-46e7-9943-3f19bf644aa9",
+    "fields": {
+        "creation_date": "2024-01-16T11:17:39.182Z",
+        "last_modification_date": "2024-01-16T11:17:39.182Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "some_random_number",
+        "read_only": false,
+        "value": "2"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "d705a5c2-dcb2-4b22-9acc-dd58f673b2d8",
+    "fields": {
+        "creation_date": "2024-01-17T08:18:37.452Z",
+        "last_modification_date": "2024-01-17T08:18:37.452Z",
+        "created_by": 2,
+        "last_modified_by": 2,
+        "field": null,
+        "custom_key": "CHECKSUM_SHA512",
+        "read_only": true,
+        "value": "c4c14d4cc6b79f53441668a3ee979bbd21e8992221ade9dfa5e55a59ef10990cd7332e54e0ea148cc2563aaa776905d1ded77282d6da5d6ddfa326e0fc2b2bf6"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "df2e87f7-6ca3-4144-ba5e-3032a640d352",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.486Z",
+        "last_modification_date": "2024-01-17T08:07:37.486Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "FILE_SIZE",
+        "read_only": true,
+        "value": "161713"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "e017de85-43d3-49a0-a0ed-d93039f173be",
+    "fields": {
+        "creation_date": "2024-01-16T08:39:10.794Z",
+        "last_modification_date": "2024-01-16T08:39:10.794Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "document_type",
+        "read_only": false,
+        "value": "binary"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "e203cabd-992c-4f04-8567-3ebbe0bf93d7",
+    "fields": {
+        "creation_date": "2024-01-16T07:43:49.346Z",
+        "last_modification_date": "2024-01-16T07:43:49.346Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "FILE_NAME",
+        "read_only": true,
+        "value": "1MB.bin"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "e3644c85-02f7-4f85-96bf-472f60f1a940",
+    "fields": {
+        "creation_date": "2024-01-17T08:26:38.486Z",
+        "last_modification_date": "2024-01-17T08:26:38.486Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "document_type",
+        "read_only": false,
+        "value": "mobile_image"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "e88db8bf-6dd9-4d65-a75a-3f89a82aa0a3",
+    "fields": {
+        "creation_date": "2024-01-17T08:18:31.435Z",
+        "last_modification_date": "2024-01-17T08:18:31.436Z",
+        "created_by": 2,
+        "last_modified_by": 2,
+        "field": null,
+        "custom_key": "CHECKSUM_MD5",
+        "read_only": true,
+        "value": "ad84fa2c9adb1dcbcf24efb5737c2fc2"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "ecf80219-08ec-4910-98a4-27b068fc59d8",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:37.476Z",
+        "last_modification_date": "2024-01-17T08:07:37.476Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "CHECKSUM_SHA512",
+        "read_only": true,
+        "value": "bfb274d77a6ac35c902c4131997938493db047928c296a484b452b7cd058374692f0a2b4945e9ba0b94dd98e66081207df5d98c52198567fc41585386ca5570a"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "f2260809-fd87-4e66-9e94-51097e65e544",
+    "fields": {
+        "creation_date": "2024-01-17T08:27:37.490Z",
+        "last_modification_date": "2024-01-17T08:27:37.490Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "EXIF_EXIFOFFSET",
+        "read_only": true,
+        "value": "126"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "fdfe8e77-3350-428d-8524-84417aeec73a",
+    "fields": {
+        "creation_date": "2024-01-17T08:07:31.448Z",
+        "last_modification_date": "2024-01-17T08:07:31.448Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "field": null,
+        "custom_key": "CHECKSUM_MD5",
+        "read_only": true,
+        "value": "97fdc6ae077d8165f3cb4aa494ddb7d4"
+    }
+},
+{
+    "model": "metadata.metadata",
+    "pk": "ff951323-7bc1-49b4-b42c-5645a9cadbfc",
+    "fields": {
+        "creation_date": "2024-01-17T08:27:37.485Z",
+        "last_modification_date": "2024-01-17T08:27:37.485Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "field": null,
+        "custom_key": "CHECKSUM_SHA512",
+        "read_only": true,
+        "value": "594eb3a87a00f60b20c378a50d87f247d384384b415886075f419c81e897fc915f9ca9a5814e0876e4efcb45ebab57b4c2d85ea9159d378dbfc236c6b500e32c"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": "69dc7722-ffb3-4a8c-a268-f286a662c941",
+    "fields": {
+        "creation_date": "2024-01-17T08:21:21.008Z",
+        "last_modification_date": "2024-01-17T08:21:21.008Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "name": "Project by user 2"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": "9ec9872e-79ef-4406-a182-84e5922e2c0e",
+    "fields": {
+        "creation_date": "2024-01-16T07:08:20.786Z",
+        "last_modification_date": "2024-01-16T07:08:20.786Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "name": "Project 1"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": "a411ff88-2b1d-48df-8f62-e79f68a05f93",
+    "fields": {
+        "creation_date": "2024-01-16T07:09:12.436Z",
+        "last_modification_date": "2024-01-16T07:09:12.436Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "name": "Project 3"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": "a811336a-15fc-40be-9a07-56f22ae484c2",
+    "fields": {
+        "creation_date": "2024-01-16T07:09:03.827Z",
+        "last_modification_date": "2024-01-16T07:09:03.827Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "name": "Project 2"
+    }
+},
+{
+    "model": "projects.projectmembership",
+    "pk": "00c4c4e3-3f4a-464d-90f0-1bacf419ef19",
+    "fields": {
+        "project": "a811336a-15fc-40be-9a07-56f22ae484c2",
+        "member": 3,
+        "is_project_admin": false,
+        "can_create_folders": true
+    }
+},
+{
+    "model": "projects.projectmembership",
+    "pk": "1081d5c7-1b60-4795-af03-caafcf2385fe",
+    "fields": {
+        "project": "9ec9872e-79ef-4406-a182-84e5922e2c0e",
+        "member": 2,
+        "is_project_admin": false,
+        "can_create_folders": true
+    }
+},
+{
+    "model": "projects.projectmembership",
+    "pk": "21e5ac65-2c37-42a5-a4df-58b4229ad4df",
+    "fields": {
+        "project": "a811336a-15fc-40be-9a07-56f22ae484c2",
+        "member": 1,
+        "is_project_admin": true,
+        "can_create_folders": true
+    }
+},
+{
+    "model": "projects.projectmembership",
+    "pk": "3a15b2b2-1ab9-4230-a551-0ad80575e83e",
+    "fields": {
+        "project": "9ec9872e-79ef-4406-a182-84e5922e2c0e",
+        "member": 1,
+        "is_project_admin": true,
+        "can_create_folders": true
+    }
+},
+{
+    "model": "projects.projectmembership",
+    "pk": "6979f008-41bd-4406-9f7d-065a7e6488ad",
+    "fields": {
+        "project": "a411ff88-2b1d-48df-8f62-e79f68a05f93",
+        "member": 1,
+        "is_project_admin": true,
+        "can_create_folders": true
+    }
+},
+{
+    "model": "projects.projectmembership",
+    "pk": "7c65f42a-660a-409c-b260-6ea0cbd6d1a3",
+    "fields": {
+        "project": "9ec9872e-79ef-4406-a182-84e5922e2c0e",
+        "member": 3,
+        "is_project_admin": false,
+        "can_create_folders": false
+    }
+},
+{
+    "model": "projects.projectmembership",
+    "pk": "b8caf869-6a77-4ace-9fce-6332d436df7c",
+    "fields": {
+        "project": "69dc7722-ffb3-4a8c-a268-f286a662c941",
+        "member": 3,
+        "is_project_admin": true,
+        "can_create_folders": true
+    }
+},
+{
+    "model": "storages.storage",
+    "pk": "7664714f-a4e0-4acf-b4c3-99eb0c210c41",
+    "fields": {
+        "creation_date": "2024-01-16T07:05:45.059Z",
+        "last_modification_date": "2024-01-16T07:05:45.059Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "name": "Local storage",
+        "storage_type": "LOCAL"
+    }
+},
+{
+    "model": "storages.storage",
+    "pk": "8bc92dc1-6adf-4e57-83c3-82fe85e24436",
+    "fields": {
+        "creation_date": "2024-01-16T07:05:49.711Z",
+        "last_modification_date": "2024-01-16T07:05:49.711Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "name": "NAS LRZ",
+        "storage_type": "NAS_LRZ"
+    }
+},
+{
+    "model": "uploads.uploadsdataset",
+    "pk": "6280ba62-d09c-483e-9dec-62745265f509",
+    "fields": {
+        "creation_date": "2024-01-17T08:26:12.432Z",
+        "last_modification_date": "2024-01-17T08:26:12.432Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "name": "JPG_image_with_EXIF_data_from_mobile.jpg",
+        "folder": "1ee36f7a-9c4d-4d90-99b6-b6ada8db3bde"
+    }
+},
+{
+    "model": "uploads.uploadsdataset",
+    "pk": "6a6367ec-46e3-48f6-bd8c-47d35cdf044c",
+    "fields": {
+        "creation_date": "2024-01-17T08:17:37.086Z",
+        "last_modification_date": "2024-01-17T08:17:37.086Z",
+        "created_by": 2,
+        "last_modified_by": 2,
+        "name": "HEIF_image_with_EXIF_data.heif",
+        "folder": "46c5c32f-73b8-42a9-9a54-f57ace82abd3"
+    }
+},
+{
+    "model": "uploads.uploadsdataset",
+    "pk": "c70b9859-c5a5-410e-91f0-995078ca103c",
+    "fields": {
+        "creation_date": "2024-01-17T08:06:48.980Z",
+        "last_modification_date": "2024-01-17T08:06:48.980Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "name": "JPG_image_with_EXIF_data.jpg",
+        "folder": "46c5c32f-73b8-42a9-9a54-f57ace82abd3"
+    }
+},
+{
+    "model": "uploads.uploadsdataset",
+    "pk": "f32257e2-0c87-43a6-b1e3-39e2d8bdc03d",
+    "fields": {
+        "creation_date": "2024-01-16T07:42:54.540Z",
+        "last_modification_date": "2024-01-16T07:42:54.540Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "name": "1MB.bin",
+        "folder": "9b85ce07-e7a1-464c-bfe7-97c16e7dca39"
+    }
+},
+{
+    "model": "uploads.uploadsversionfile",
+    "pk": "2524ee99-e115-4e28-aa49-a8bcd7187b31",
+    "fields": {
+        "creation_date": "2024-01-17T08:17:28.005Z",
+        "last_modification_date": "2024-01-17T08:18:37.502Z",
+        "created_by": 2,
+        "last_modified_by": 2,
+        "uploaded_file": "local/a811336a-15fc-40be-9a07-56f22ae484c2/46c5c32f-73b8-42a9-9a54-f57ace82abd3/HEIF_image_with_EXIF_data.heif",
+        "status": "ERROR",
+        "uploaded_using_tus": false,
+        "publication_date": "2024-01-17T08:17:37.092Z"
+    }
+},
+{
+    "model": "uploads.uploadsversionfile",
+    "pk": "49d6593f-b2f8-4aaa-a661-5aef955edc21",
+    "fields": {
+        "creation_date": "2024-01-17T08:26:01.192Z",
+        "last_modification_date": "2024-01-17T08:28:37.500Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "uploaded_file": "nas_lrz/69dc7722-ffb3-4a8c-a268-f286a662c941/1ee36f7a-9c4d-4d90-99b6-b6ada8db3bde/JPG_image_with_EXIF_data_from_mobile.jpg",
+        "status": "FINISHED",
+        "uploaded_using_tus": false,
+        "publication_date": "2024-01-17T08:26:12.438Z"
+    }
+},
+{
+    "model": "uploads.uploadsversionfile",
+    "pk": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033",
+    "fields": {
+        "creation_date": "2024-01-16T07:42:00.470Z",
+        "last_modification_date": "2024-01-16T07:44:49.360Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "uploaded_file": "local/9ec9872e-79ef-4406-a182-84e5922e2c0e/9b85ce07-e7a1-464c-bfe7-97c16e7dca39/1MB.bin",
+        "status": "FINISHED",
+        "uploaded_using_tus": false,
+        "publication_date": "2024-01-16T07:42:54.547Z"
+    }
+},
+{
+    "model": "uploads.uploadsversionfile",
+    "pk": "84f2f4d4-2995-442e-8a7e-a085cb0696d7",
+    "fields": {
+        "creation_date": "2024-01-17T08:06:31.465Z",
+        "last_modification_date": "2024-01-17T08:08:37.503Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "uploaded_file": "local/a811336a-15fc-40be-9a07-56f22ae484c2/46c5c32f-73b8-42a9-9a54-f57ace82abd3/JPG_image_with_EXIF_data.jpg",
+        "status": "FINISHED",
+        "uploaded_using_tus": false,
+        "publication_date": "2024-01-17T08:06:48.985Z"
+    }
+},
+{
+    "model": "uploads.uploadsversionfile",
+    "pk": "c357eacf-3298-4803-89c5-ac2428d08650",
+    "fields": {
+        "creation_date": "2024-01-16T07:55:29.921Z",
+        "last_modification_date": "2024-01-16T07:57:49.340Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "uploaded_file": "local/9ec9872e-79ef-4406-a182-84e5922e2c0e/9b85ce07-e7a1-464c-bfe7-97c16e7dca39/10MB.bin",
+        "status": "FINISHED",
+        "uploaded_using_tus": false,
+        "publication_date": "2024-01-16T07:55:52.941Z"
+    }
+},
+{
+    "model": "uploads.uploadsversion",
+    "pk": "2c151007-9907-4a46-a2b4-d86371d8feb5",
+    "fields": {
+        "creation_date": "2024-01-16T07:40:47.484Z",
+        "last_modification_date": "2024-01-16T07:42:54.545Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "dataset": "f32257e2-0c87-43a6-b1e3-39e2d8bdc03d",
+        "version_file": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033",
+        "publication_date": "2024-01-16T07:42:54.541Z"
+    }
+},
+{
+    "model": "uploads.uploadsversion",
+    "pk": "50517aea-4249-4204-a308-f1b7ca1eb322",
+    "fields": {
+        "creation_date": "2024-01-16T07:55:16.791Z",
+        "last_modification_date": "2024-01-16T07:55:52.938Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "dataset": "f32257e2-0c87-43a6-b1e3-39e2d8bdc03d",
+        "version_file": "c357eacf-3298-4803-89c5-ac2428d08650",
+        "publication_date": "2024-01-16T07:55:52.935Z"
+    }
+},
+{
+    "model": "uploads.uploadsversion",
+    "pk": "5aa5f7e7-7ca7-4a43-b78b-6d172b116797",
+    "fields": {
+        "creation_date": "2024-01-17T08:16:55.030Z",
+        "last_modification_date": "2024-01-17T08:17:37.090Z",
+        "created_by": 2,
+        "last_modified_by": 2,
+        "dataset": "6a6367ec-46e3-48f6-bd8c-47d35cdf044c",
+        "version_file": "2524ee99-e115-4e28-aa49-a8bcd7187b31",
+        "publication_date": "2024-01-17T08:17:37.087Z"
+    }
+},
+{
+    "model": "uploads.uploadsversion",
+    "pk": "5daecdcc-1e97-4451-9458-e0a68026be6c",
+    "fields": {
+        "creation_date": "2024-01-16T11:17:10.794Z",
+        "last_modification_date": "2024-01-16T11:17:10.794Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "dataset": "f32257e2-0c87-43a6-b1e3-39e2d8bdc03d",
+        "version_file": "c357eacf-3298-4803-89c5-ac2428d08650",
+        "publication_date": null
+    }
+},
+{
+    "model": "uploads.uploadsversion",
+    "pk": "cd121dad-dab6-4eb0-98eb-81e0dd116eb0",
+    "fields": {
+        "creation_date": "2024-01-17T08:05:55.477Z",
+        "last_modification_date": "2024-01-17T08:06:48.983Z",
+        "created_by": 1,
+        "last_modified_by": 1,
+        "dataset": "c70b9859-c5a5-410e-91f0-995078ca103c",
+        "version_file": "84f2f4d4-2995-442e-8a7e-a085cb0696d7",
+        "publication_date": "2024-01-17T08:06:48.981Z"
+    }
+},
+{
+    "model": "uploads.uploadsversion",
+    "pk": "e7d104cf-0f3c-4517-9911-c33818541b31",
+    "fields": {
+        "creation_date": "2024-01-17T08:25:32.861Z",
+        "last_modification_date": "2024-01-17T08:26:12.436Z",
+        "created_by": 3,
+        "last_modified_by": 3,
+        "dataset": "6280ba62-d09c-483e-9dec-62745265f509",
+        "version_file": "49d6593f-b2f8-4aaa-a661-5aef955edc21",
+        "publication_date": "2024-01-17T08:26:12.433Z"
+    }
+},
+{
+    "model": "uploads.uploadsversionmetadata",
+    "pk": "0ff2c43e-86c0-47a8-99b4-7813a5d7b9f6",
+    "fields": {
+        "relation": "5aa5f7e7-7ca7-4a43-b78b-6d172b116797"
+    }
+},
+{
+    "model": "uploads.uploadsversionmetadata",
+    "pk": "4743a818-0f80-4fa8-b138-b36927a3c1c8",
+    "fields": {
+        "relation": "cd121dad-dab6-4eb0-98eb-81e0dd116eb0"
+    }
+},
+{
+    "model": "uploads.uploadsversionmetadata",
+    "pk": "556268ff-e530-4d77-8735-02bd3fd2d71d",
+    "fields": {
+        "relation": "5daecdcc-1e97-4451-9458-e0a68026be6c"
+    }
+},
+{
+    "model": "uploads.uploadsversionmetadata",
+    "pk": "557053db-41bb-4c60-8fa3-cf63dac2e0d5",
+    "fields": {
+        "relation": "e7d104cf-0f3c-4517-9911-c33818541b31"
+    }
+},
+{
+    "model": "uploads.uploadsversionmetadata",
+    "pk": "6f27f99c-9ff5-41fe-b48d-9fd3443842b1",
+    "fields": {
+        "relation": "50517aea-4249-4204-a308-f1b7ca1eb322"
+    }
+},
+{
+    "model": "uploads.uploadsversionmetadata",
+    "pk": "94ba7fe4-615e-47f9-95a7-1ab8fbb1cddc",
+    "fields": {
+        "relation": "50517aea-4249-4204-a308-f1b7ca1eb322"
+    }
+},
+{
+    "model": "uploads.uploadsversionmetadata",
+    "pk": "b70d5755-178a-4d42-8990-b1d3907367a2",
+    "fields": {
+        "relation": "5daecdcc-1e97-4451-9458-e0a68026be6c"
+    }
+},
+{
+    "model": "uploads.uploadsversionmetadata",
+    "pk": "d2373179-bc8d-46e7-9943-3f19bf644aa9",
+    "fields": {
+        "relation": "5daecdcc-1e97-4451-9458-e0a68026be6c"
+    }
+},
+{
+    "model": "uploads.uploadsversionmetadata",
+    "pk": "e017de85-43d3-49a0-a0ed-d93039f173be",
+    "fields": {
+        "relation": "50517aea-4249-4204-a308-f1b7ca1eb322"
+    }
+},
+{
+    "model": "uploads.uploadsversionmetadata",
+    "pk": "e3644c85-02f7-4f85-96bf-472f60f1a940",
+    "fields": {
+        "relation": "e7d104cf-0f3c-4517-9911-c33818541b31"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "02b1f308-4510-47ee-9b18-a490db4e09bf",
+    "fields": {
+        "relation": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "0384d180-05e6-402c-a8ad-1b90341e34bf",
+    "fields": {
+        "relation": "c357eacf-3298-4803-89c5-ac2428d08650"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "03f52386-dcf5-4438-8f00-bca6f88fe3ba",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "06ae1844-f51d-4657-8aad-fdc1786e5c34",
+    "fields": {
+        "relation": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "06b22505-2a23-4e2d-8663-d1a8407181c2",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "07b4d415-f00a-4a77-be8f-17aee8e8e0ff",
+    "fields": {
+        "relation": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "0fb3b9b5-aead-4ad3-996d-2994c9bb8cbf",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "20c7c554-0f6f-4db7-9334-ecdf6bb2850e",
+    "fields": {
+        "relation": "c357eacf-3298-4803-89c5-ac2428d08650"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "2171a857-8174-4cb9-9155-efec9f8a9c1e",
+    "fields": {
+        "relation": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "246636e0-6625-47f2-aa4f-8b8a4d088d97",
+    "fields": {
+        "relation": "2524ee99-e115-4e28-aa49-a8bcd7187b31"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "256cc30f-6d9a-4962-97ae-decc3fc8f0cf",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "26628e2b-9392-46d0-ae59-66ecc32af7bf",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "26c4f143-f220-486d-937a-793af2fb76df",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "2783d932-a6c5-4dde-9900-f69dc97072a6",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "2e366fac-65e1-4532-883e-ae3f6d64a32b",
+    "fields": {
+        "relation": "c357eacf-3298-4803-89c5-ac2428d08650"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "3184b9cc-10dd-4e44-870a-2e657af5ca3c",
+    "fields": {
+        "relation": "c357eacf-3298-4803-89c5-ac2428d08650"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "43ac5bbd-0b73-4ad7-b837-b0e162811111",
+    "fields": {
+        "relation": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "43ba5c20-335c-4456-9f1c-03cf5d0b71ec",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "446e1de6-cd38-4867-b01a-7ca7ce30be79",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "45b18644-254c-4d07-8be2-5deb5b0b5e13",
+    "fields": {
+        "relation": "c357eacf-3298-4803-89c5-ac2428d08650"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "48fc50d4-f2b0-47fd-ab83-50c1e160fa2a",
+    "fields": {
+        "relation": "2524ee99-e115-4e28-aa49-a8bcd7187b31"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "4bc24123-36bb-4e6d-951c-73eb81e212f9",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "55381c5d-2ee9-48a9-818c-dbc7d69269c9",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "6170f61e-d5cd-4b08-9322-11d13f587f00",
+    "fields": {
+        "relation": "c357eacf-3298-4803-89c5-ac2428d08650"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "67e19718-e8f5-40dd-828b-14a302339515",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "6a182f3f-eabe-40c8-b1f5-3e69085ecad2",
+    "fields": {
+        "relation": "2524ee99-e115-4e28-aa49-a8bcd7187b31"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "75d6e6e0-6c40-4af6-b527-d84fd61c1732",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "78dd05af-9d47-4cb9-9c43-dfda49a9eafa",
+    "fields": {
+        "relation": "c357eacf-3298-4803-89c5-ac2428d08650"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "7c60a166-880b-45d7-aff1-ddfdda4f9c53",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "81199518-49d5-407a-90aa-c62e9f15cc5e",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "8249cde7-8d11-4813-bf60-e1304b5aa17e",
+    "fields": {
+        "relation": "c357eacf-3298-4803-89c5-ac2428d08650"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "83df72b8-b94a-4d07-be00-63b3d0724285",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "86dc6e9b-1784-4469-9df2-e4e9eacbae34",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "88330596-f388-40c7-b81f-c9e71c183a4a",
+    "fields": {
+        "relation": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "9681d69c-2236-422a-85e2-0b9eb22b117e",
+    "fields": {
+        "relation": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "96af1110-532f-48f7-a77d-cfd5c658da67",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "9c698081-330d-47d1-b908-b326d3d82039",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "9c87eee3-839a-4c36-84e4-036ec72d05f0",
+    "fields": {
+        "relation": "2524ee99-e115-4e28-aa49-a8bcd7187b31"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "9cc5ec10-a030-475d-ab86-8f053bf2bc50",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "a0d67819-1dfc-46da-8393-8ae23076fd53",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "a0dfbca8-59da-4362-98d7-f5bb8c745d86",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "ad42612f-d2f4-48b4-a9c1-4c0bccbaeea1",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "b959a5f3-4348-46df-af16-da65f47d58f5",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "c0a1d6c8-8b2d-4fe2-8120-86b278c3598d",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "c172276d-04b9-4196-9f64-98abf4a01a79",
+    "fields": {
+        "relation": "2524ee99-e115-4e28-aa49-a8bcd7187b31"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "c341f52b-f784-4a3e-b80a-07c3c1f661dc",
+    "fields": {
+        "relation": "2524ee99-e115-4e28-aa49-a8bcd7187b31"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "c941758d-659c-4c0e-92e6-5fea537b5b92",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "ca9dbd57-a18d-47de-80e2-23999714e6fd",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "caca2a5d-e641-404f-aca4-7bf3bb20e332",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "cb881553-94ba-40d1-bfb1-7c16d0d4a02e",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "d705a5c2-dcb2-4b22-9acc-dd58f673b2d8",
+    "fields": {
+        "relation": "2524ee99-e115-4e28-aa49-a8bcd7187b31"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "df2e87f7-6ca3-4144-ba5e-3032a640d352",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "e203cabd-992c-4f04-8567-3ebbe0bf93d7",
+    "fields": {
+        "relation": "6fe77ad5-18e9-4a0c-8f41-9bae9e83b033"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "e88db8bf-6dd9-4d65-a75a-3f89a82aa0a3",
+    "fields": {
+        "relation": "2524ee99-e115-4e28-aa49-a8bcd7187b31"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "ecf80219-08ec-4910-98a4-27b068fc59d8",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "f2260809-fd87-4e66-9e94-51097e65e544",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "fdfe8e77-3350-428d-8524-84417aeec73a",
+    "fields": {
+        "relation": "84f2f4d4-2995-442e-8a7e-a085cb0696d7"
+    }
+},
+{
+    "model": "uploads.uploadsversionfilemetadata",
+    "pk": "ff951323-7bc1-49b4-b42c-5645a9cadbfc",
+    "fields": {
+        "relation": "49d6593f-b2f8-4aaa-a661-5aef955edc21"
+    }
+},
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$rG3KapIqeJO2YVXDKGtZ1W$J3aPknBdhoiMMm24edbFLhMu8MPbyCRtO0EtEqxsz0I=",
+        "last_login": "2024-01-17T08:24:08.865Z",
+        "is_superuser": true,
+        "username": "superuser",
+        "first_name": "Super",
+        "last_name": "User",
+        "email": "superuser@domain.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-01-12T12:24:50Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$uIO0DXKOEuVfuAPEOBNLNs$L671ULx3wmFq4Hu7nRALtpFMMSlhtD91RKP/irEqtFQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user_1",
+        "first_name": "Max",
+        "last_name": "Mustermann",
+        "email": "user_1@domain.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-01-16T07:19:20Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$wq7RR9MoRXoSzrnrJvtYMq$Mn//jW23SbLgnO+WN6Of+Nht5t0G0/wuJzmtRUN/xbU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user_2",
+        "first_name": "Maximiliana",
+        "last_name": "Musterfrau",
+        "email": "user_2@domain.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-01-16T07:20:06Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+}
+]

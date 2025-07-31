@@ -1,0 +1,38 @@
+{% load i18n %}
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>
+            {%  block header_title  %}
+                {{ subject }}
+            {%  endblock %}
+        </title>
+    </head>
+    <body>
+        {% block header %}
+            <p>
+                {% blocktrans %}Dear {{ user }},{% endblocktrans %}
+            </p>
+        {% endblock %}
+
+        {% block content %}
+        {% endblock %}
+
+        {% block footer %}
+            <p>
+                {% blocktrans %}Regards, {{ APP_TITLE }}{% endblocktrans %}
+            </p>
+            <p>
+                {% blocktrans %}This email was generated automatically. Do not reply. For questions, please contact <a href="mailto:{{ APP_CONTACT_EMAIL }}">{{ APP_CONTACT_EMAIL }}</a>.{% endblocktrans %}<br>
+                &copy; 2024 Technical University of Munich
+            </p>
+            <p>
+                Legal notice <a href="{{ APP_LEGAL_NOTICE_URL }}">{{ APP_LEGAL_NOTICE_URL }}</a><br>
+                Privacy Policy <a href="{{ APP_PRIVACY_POLICY_URL }}">{{ APP_PRIVACY_POLICY_URL }}</a>
+            </p>
+        {% endblock %}
+    </body>
+</html>

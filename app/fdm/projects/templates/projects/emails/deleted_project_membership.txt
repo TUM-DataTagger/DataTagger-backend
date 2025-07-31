@@ -1,0 +1,8 @@
+{% extends "emails/email_template.txt" %}
+
+{% load i18n %}
+
+{% block content %}
+{% blocktrans %}{{ current_user }} removed you from the project {{ project_name }} at {{ APP_TITLE }}.{% endblocktrans %}
+{{ project_url }}
+{% endblock %}

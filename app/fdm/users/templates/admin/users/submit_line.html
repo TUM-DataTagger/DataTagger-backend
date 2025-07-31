@@ -1,0 +1,12 @@
+{% extends "admin/submit_line.html" %}
+{% load i18n admin_urls %}
+
+{% block submit-row %}
+    {{ block.super }}
+    {% for obj in transitions %}
+        <input type="submit" name="{{ obj }}" value="{{ obj }}">
+    {% endfor %}
+    {% if anonymize_button %}
+        <input type="submit" name="_anonymize" value="{% trans "Anonymize" %}">
+    {% endif %}
+{% endblock %}

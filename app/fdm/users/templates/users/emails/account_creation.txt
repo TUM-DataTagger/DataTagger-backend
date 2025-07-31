@@ -1,0 +1,24 @@
+{% extends "emails/email_template.txt" %}
+
+{% load i18n %}
+
+{% block content %}
+{% blocktrans %}{{ current_user }} invited you to {{ APP_TITLE }}, so a user account was automatically created for you.{% endblocktrans %}
+{% if is_external_user %}
+{% blocktrans %}If you have a TUM ID (example: ka21bap), log in here:{% endblocktrans %}
+{{ login_url }}
+
+{% blocktrans %}You can find out more about a TUM ID using this link:{% endblocktrans %}
+https://www.it.tum.de/en/it/faq/account-login-tum-id-mwnid-tumcard/tum-id/what-is-the-tum-id-tum-kennung/
+
+{% blocktrans %}If you do not have a TUM ID, set a password for your new user account using this link:{% endblocktrans %}
+{{ reset_password_url }}
+
+{% blocktrans %}We recommend using a strong password. A strong password contains at least 8 characters, and uses lowercase and uppercase letters, numbers and special characters (e.g.: !, _, -).{% endblocktrans %}
+
+{% blocktrans %}After you have set a password for your user account, log in using this link:{% endblocktrans %}
+{{ external_login_url }}
+{% else %}
+{% blocktrans %}Please log in using this link:{% endblocktrans %}
+{{ login_url }}
+{% endif %}{% endblock %}

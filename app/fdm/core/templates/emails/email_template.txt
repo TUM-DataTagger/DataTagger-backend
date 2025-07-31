@@ -1,0 +1,11 @@
+{% load i18n %}
+{% block header %}{% blocktrans %}Dear {{ user }},{% endblocktrans %}{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% blocktrans %}Regards, {{ APP_TITLE }}{% endblocktrans %}
+
+This email was generated automatically. Do not reply. For questions, please contact {{ APP_CONTACT_EMAIL }}.
+&copy; 2024 Technical University of Munich
+
+Legal notice {{ APP_LEGAL_NOTICE_URL }}
+Privacy Policy {{ APP_PRIVACY_POLICY_URL }}
+{% endblock %}

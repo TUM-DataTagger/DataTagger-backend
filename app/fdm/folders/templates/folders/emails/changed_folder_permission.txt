@@ -1,0 +1,8 @@
+{% extends "emails/email_template.txt" %}
+
+{% load i18n %}
+
+{% block content %}
+{% blocktrans %}Your permissions have been changed to {{ folder_role }} for {{ folder_name }} in project {{ project_name }} at {{ APP_TITLE }}.{% endblocktrans %}
+{{ folder_url }}
+{% endblock %}

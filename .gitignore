@@ -1,0 +1,25 @@
+.env
+.DS_Store
+*.pyc
+*.pyo
+# ignore contents of data/public and data/private
+/data/public/*
+!/data/public/.gitkeep
+/data/private/*
+!/data/private/.gitkeep
+# ignore logs
+/logs/*
+!/logs/.gitkeep
+/public/
+/docs/_build
+/docs/auto_docs
+/reports/*
+docker-compose.override.yml
+
+# ignore everything from .idea, except...
+/.idea/*
+# except:
+!/.idea/runConfigurations/
+!/.idea/runConfigurations/*.xml
+
+app/celerybeat-schedule

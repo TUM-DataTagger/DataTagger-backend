@@ -1,0 +1,6 @@
+services:
+  restapi:
+    image: '${IMAGE_NAME_RESTAPI}:${IMAGE_VERSION}'
+    build:
+      context: '.'
+      dockerfile: './docker/restapi/${IMAGE_DOCKERFILE:-Dockerfile.prod}'

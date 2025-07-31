@@ -1,0 +1,6 @@
+# rename to docker-compose.override.yml and use docker-compose up as normal.
+
+services:
+  # Use Django runserver instead of gunicorn
+  restapi: &restapi
+    command: python -Wd manage.py runserver 0.0.0.0:8000

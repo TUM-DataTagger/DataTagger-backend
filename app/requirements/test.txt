@@ -1,0 +1,8 @@
+-r base.txt
+django-test-plus>=2.2,<2.3
+pytest>=7.2,<7.3
+pytest-cov>=4.0,<4.1
+pytest-django>=4.5,<4.6
+pytest-html>=3.2,<3.3
+pytest-mock>=3.14.0,<3.15
+pytest-xdist>=3.6.0
