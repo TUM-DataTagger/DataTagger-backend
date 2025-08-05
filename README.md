@@ -1,8 +1,9 @@
-# FDM
+# TUM DataTagger
 
-A file management tool.
+Efficient and collaborative research data management with TUM DataTagger. 
+Upload, structure, share, and annotate your data with metadata – all in one centralized web-based tool. Secure and compliant with DFG standards.
 
-This application uses these core python packages:
+This application uses these core Python packages:
 * Django 4.2
 * Django Rest Framework 3.14
 * Django Environ
@@ -26,13 +27,13 @@ Django 4.2 requires PostgreSQL 12 or higher.
 
 ## Installation instructions for development
 
-It is expected you have `docker` as well as `docker compose` set up and running on your machine.
+It is expected that you have `docker` as well as `docker compose` set up and running on your machine.
 
 ### Local configurations (Override)
 
 Copy the **docker compose.override.example** to **docker compose.override.yml** and add/extend port mappings as needed.
 
-For instance, on a Windows machine you might need to adapt the ports on each service that you want to access from outside to a local ip address:
+For instance, on a Windows machine, you might need to adapt the ports on each service that you want to access from outside to a local ip address:
 
 ```
 services:
@@ -49,14 +50,14 @@ services:
 ### Setup
 
 To initially build and run the application, do the steps as follows:
-* Build the docker images: `docker compose build`
+* Build the Docker images: `docker compose build`
 * Run migrations: `docker compose run --rm restapi python manage.py migrate`
 * Create superuser: `docker compose run --rm restapi python manage.py createsuperuser`
 * Start containers: `docker compose up` or `docker compose start`
 * Application should be accessible by browsing [http://localhost:8000/](http://localhost:8000/) (or in case you are on Windows and you did override the docker compose file on [http://127.0.10.20:8000/](http://127.0.10.20:8000/) ).
-* On **Windows** you need to use the ip you configured in docker compose for the local port mapping.
+* On **Windows**, you need to use the IP you configured in Docker Compose for the local port mapping.
 
-The runserver command is directly executed by docker compose when you start the containers.
+The runserver command is directly executed by Docker Compose when you start the containers.
 
 ### Auto-formatter setup
 We use isort (https://github.com/pycqa/isort) and black (https://github.com/psf/black) for local auto-formatting and for linting in the CI pipeline.
@@ -91,8 +92,8 @@ You may need the following common tasks during the development of the applicatio
 * Run migrations: `docker compose run --rm restapi python manage.py migrate`
 * Undo/Revert migration: `docker compose run --rm restapi python manage.py migrate <app> <number-of-last-migration-file>`
 
-#### Language dependent contents
-The app supports different contents for de and en by default.
+#### Language-dependent contents
+The app supports different content for de and en by default.
 Extend the LANGUAGES setting in base.py and create a new folder in /app/locale to add a new language package to manage contents for.
 
 * Create translations: `docker compose run --rm restapi python manage.py makemessages`
@@ -113,11 +114,11 @@ Extend the LANGUAGES setting in base.py and create a new folder in /app/locale t
 
 #### Cloning the database volume when changing branches
 
-A common issue are branches with their respective migrations which can render the database unusable after applying migrations and then changing back to a branch without that changes, e.g. removing a non-nullable field in a feature branch but still using it in the master branch.
+A common issue is branches with their respective migrations, which can render the database unusable after applying migrations and then changing back to a branch without those changes, e.g., removing a non-nullable field in a feature branch but still using it in the master branch.
 
-To avoid this problem you can clone the Docker volume for the current branch and also generate a Docker override file to use it. This ensures that you have different database states for each branch which persist on your local drive until you manually delete them or the Docker override file.
+To avoid this problem, you can clone the Docker volume for the current branch and also generate a Docker override file to use it. This ensures that you have different database states for each branch which persist on your local drive until you manually delete them or the Docker override file.
 
-To clone your **default** database volume for your current branch you have to execute the following command from your project root:
+To clone your **default** database volume for your current branch, you have to execute the following command from your project root:
 
 ```
 ./helpers/clone_database_volume_for_current_branch.sh -o postgresql
@@ -125,7 +126,7 @@ To clone your **default** database volume for your current branch you have to ex
 
 The argument `-o` is optional and generates the `docker compose.override.yml` file.
 
-**Important**: Do **NOT** add the `docker compose.override.yml` to the project repository! If you change to a branch where you need another volume clone just execute the command above or delete the override file to use the default volume again.
+**Important**: Do **NOT** add the `docker compose.override.yml` to the project repository! If you change to a branch where you need another volume clone, just execute the command above or delete the override file to use the default volume again.
 
 ## Instructions for project
 
@@ -138,7 +139,7 @@ The argument `-o` is optional and generates the `docker compose.override.yml` fi
 
 * Anexia <support@anexia-it.com>, Lead developer
 
-## Project related external resources
+## Project-related external resources
 
 * [Django documentation](https://docs.djangoproject.com/en/4.2/)
 * [Django REST Framework documentation](http://www.django-rest-framework.org/topics/documenting-your-api/)
